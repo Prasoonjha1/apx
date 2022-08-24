@@ -29,12 +29,33 @@ function MainComp()
             )
 }*/
 
-const page = (
-    <div>
-        <img src="logo192.png" width="40px"></img>
+function Header()
+{
+    return (
+            <header>
+                <nav>
+                    <img src="logo192.png" width="40px"></img>
+                </nav>
+            </header>
+    )
+}
+
+function Footer()
+{
+    return (
+        <footer>
+            <small>© 2022 Apx development. All rights reserved.</small>
+        </footer>
+    )
+}
+
+function Body()
+{
+    return(
+        <div>
         <h1>Fun facts about React</h1>
-        <div >
-            <ul>
+        <div>
+            <ol>
                 <li>
                     Was released in 2013
                 </li>
@@ -50,13 +71,23 @@ const page = (
                 <li>
                   Powers thousands of enterprise apps, including mobile apps
                 </li>
-            </ul>
+            </ol>
+            </div>
         </div>
-    </div>
-)
+    )
+}
+
+function TemporaryName(){
+    return(
+    <div>
+        <Header />
+        <Body />
+        <Footer />
+    </div>)
+}
 
 //document.getElementById("root").append(JSON.stringify(page))
 
 ReactDOM.render(
-              page,
+                <TemporaryName/>,
               document.getElementById("root"))
