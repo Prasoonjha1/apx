@@ -1,18 +1,72 @@
-.nav {
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: rgb(43, 42, 42);
+}
+
+nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
 }
 
-.nav-items {
-  list-style: none;
-  display: flex;
-}
-
-.nav-items > li {
-  padding: 10px;
+.nav-logo-text, .nav-text {
+  margin: 0;
 }
 
 .nav-logo {
-  width: 60px;
+  height: 30px;
+  padding-right: 7px;
+  padding-left: 20px;
+}
+
+.nav-logo-text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav-text {
+  color: white;
+  font-weight: 600;
+}
+
+main {
+  padding: 57px 27px;
+  height: 100%;
+  background-image: url('./Image/logo512.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main_text, .main_list {
+  color: white;
+}
+
+.main_text {
+  margin: auto;
+  letter-spacing: -0.05em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.06px;
+  line-height: 47px;
+
+}
+
+.main_list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main_list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main_list > li::marker {
+  font-size: 1.6rem;
+  color: #61DAFB;
 }

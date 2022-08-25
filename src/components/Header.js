@@ -1,16 +1,13 @@
-import reactlogo from '../Image/logo192.png'
+import react_logo from '../Image/logo192.png'
 
 function Header()
 {
     return (
             <header>
-                <nav className="nav">
-                    <img src={reactlogo} className="nav-logo"></img>
-                    <ul className="nav-items">
-                        <li>Pricing</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
+                <nav>
+                    <img src={react_logo} className="nav-logo"></img>
+                    <h3 className='nav-logo-text'>ReactFacts</h3>
+                    <h4 className='nav-text'>React Course - Project 1</h4>
                 </nav>
             </header>
     )

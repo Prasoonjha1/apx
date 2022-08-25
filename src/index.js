@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './index.css'
 import Header from "./components/Header"
-import Body from "./components/Body"
+import Main from "./components/Main"
 import Footer from "./components/Footer"
 
 
@@ -10,8 +10,7 @@ function App(){
     return(
     <div>
         <Header />
-        <Body />
-        <Footer />
+        <Main />
     </div>)
 }
 

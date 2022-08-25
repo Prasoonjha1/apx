@@ -1,10 +1,9 @@
-function Body()
+function Main()
 {
     return(
-        <div>
-        <h1>Fun facts about React</h1>
-        <div>
-            <ol>
+        <main>
+        <h1 className="main_text">Fun facts about React</h1>
+            <ul className="main_list">
                 <li>
                     Was released in 2013
                 </li>
@@ -15,15 +14,14 @@ function Body()
                     Has well over 100k stars on Github
                 </li>
                 <li>
-                  Is maintained by facebook
+                  Is maintained by Facebook
                 </li>
                 <li>
                   Powers thousands of enterprise apps, including mobile apps
                 </li>
-            </ol>
-            </div>
-        </div>
+            </ul>
+        </main>
     )
 }
 
-export default Body
+export default Main
